@@ -9,14 +9,20 @@ describe('contains function', () => {
 
     expect(expected).toBe(actual)
   })
+  
+  it('should detect non-member element of an array of numbers', () => {
+    const source = [1, 2, 3]
+    const expected = false
+    
+    const actual = contains(source, 4)
+
+    expect(expected).toBe(actual)
+  })
 })
 /*
 Test cases:
 
 Ex:
-Input: [1,2,3]  1
-Output: true
-
 Input: [1,2,3]  4
 Output: false
 
