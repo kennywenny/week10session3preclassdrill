@@ -1,6 +1,15 @@
 import contains from './contains'
 
+describe('contains function', () => {
+  it('should pick out an element contained in an array of numbers', () => {
+    const source = [1, 2, 3]
+    const expected = true
+    
+    const actual = contains(source, 1)
 
+    expect(expected).toBe(actual)
+  })
+})
 /*
 Test cases:
 
