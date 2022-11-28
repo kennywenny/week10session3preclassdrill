@@ -1,3 +1,6 @@
+import contains from './contains'
+
+
 /*
 Test cases:
 
