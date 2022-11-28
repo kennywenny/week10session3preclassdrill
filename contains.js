@@ -1,5 +1,10 @@
 function contains(array, element) {
-  return true
+  for (const member of array) {
+    if (member == element) {
+      return true
+    }
+  }
+  return false
 }
 
 module.exports = contains
