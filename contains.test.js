@@ -1,4 +1,4 @@
-import contains from './contains'
+const contains = require('./contains')
 
 describe('contains function', () => {
   it('should pick out an element contained in an array of numbers', () => {
