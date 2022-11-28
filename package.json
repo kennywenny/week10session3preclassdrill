@@ -1,0 +1,23 @@
+{
+  "name": "week10session3preclassdrill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "contains.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kennywenny/week10session3preclassdrill.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kennywenny/week10session3preclassdrill/issues"
+  },
+  "homepage": "https://github.com/kennywenny/week10session3preclassdrill#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
